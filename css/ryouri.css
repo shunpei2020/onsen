@@ -1,0 +1,257 @@
+.top {
+  width: 100%;
+  height: 550px;
+  background-image: url(../img/menu-header.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .top {
+    height: 530px;
+  }
+}
+
+.top-copy {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.ryouri-inner {
+  padding: 40px 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 1200px) {
+  .ryouri-inner {
+    padding: 20px 0;
+  }
+}
+
+.ryouri-inner .pan {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 480px) {
+  .ryouri-inner .pan {
+    width: 95%;
+  }
+}
+
+.ryouri-inner .pan a {
+  color: #000;
+  text-decoration: underline;
+}
+
+.ryouri-inner .pan span {
+  margin-left: 5px;
+}
+
+.ryouri-copy {
+  width: 90%;
+  margin: 60px auto 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .ryouri-copy {
+    margin: 30px auto 40px;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .ryouri-copy {
+    width: 95%;
+    font-size: 14px;
+  }
+}
+
+.ryouri-copy p {
+  line-height: 2;
+  letter-spacing: .1em;
+}
+
+.ryouri-box {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto 80px;
+  padding: 80px 0 0;
+}
+
+@media screen and (max-width: 768px) {
+  .ryouri-box {
+    padding: 20px 0 0;
+    margin-bottom: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .ryouri-box {
+    width: 95%;
+  }
+}
+
+.ryouri-box img {
+  z-index: 2;
+  -webkit-transform: translate(10%, -10%);
+          transform: translate(10%, -10%);
+  width: 40%;
+  max-height: 320px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .ryouri-box img {
+    width: 90%;
+    -webkit-transform: translate(0, -10%);
+            transform: translate(0, -10%);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .ryouri-box img {
+    max-height: 200px;
+  }
+}
+
+.ryouri-box .content {
+  width: 100%;
+  height: 381px;
+  -webkit-transform: translate(-6%, 10%);
+          transform: translate(-6%, 10%);
+  background-image: url(../img/bg.jpg);
+}
+
+@media screen and (max-width: 768px) {
+  .ryouri-box .content {
+    width: 90%;
+    height: 350px;
+    -webkit-transform: translate(10%, -20%);
+            transform: translate(10%, -20%);
+  }
+}
+
+.ryouri-box .content-inner {
+  padding: 50px 40px;
+  padding-left: 140px;
+}
+
+@media screen and (max-width: 1200px) {
+  .ryouri-box .content-inner {
+    padding-left: 100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ryouri-box .content-inner {
+    padding: 60px 20px 20px;
+    padding-left: 20px;
+  }
+}
+
+.ryouri-box .content-inner h2 {
+  margin-bottom: 40px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+@media screen and (max-width: 768px) {
+  .ryouri-box .content-inner h2 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .ryouri-box .content-inner h2 {
+    margin-bottom: 20px;
+  }
+}
+
+.ryouri-box .content-inner .sub {
+  line-height: 1.8;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 480px) {
+  .ryouri-box .content-inner .sub {
+    margin-bottom: 20px;
+  }
+}
+
+.ryouri-box .content-inner .imp {
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+@media screen and (max-width: 480px) {
+  .ryouri-box .content-inner .imp {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ryouri-box.reverse {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
+.ryouri-box.reverse img {
+  -webkit-transform: translate(-10%, 0%);
+          transform: translate(-10%, 0%);
+}
+
+@media screen and (max-width: 768px) {
+  .ryouri-box.reverse img {
+    -webkit-transform: translate(10%, -10%);
+            transform: translate(10%, -10%);
+  }
+}
+
+.ryouri-box.reverse .content {
+  -webkit-transform: translate(6%, 10%);
+          transform: translate(6%, 10%);
+}
+
+@media screen and (max-width: 768px) {
+  .ryouri-box.reverse .content {
+    -webkit-transform: translate(-1%, -20%);
+            transform: translate(-1%, -20%);
+  }
+}
+
+.ryouri-box.reverse .content-inner {
+  padding-left: 40px;
+  padding-right: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  .ryouri-box.reverse .content-inner {
+    padding: 60px 20px 20px;
+    padding-right: 20px;
+  }
+}
+/*# sourceMappingURL=ryouri.css.map */
