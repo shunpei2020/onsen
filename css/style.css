@@ -403,8 +403,8 @@ a {
 }
 
 .header-menu .burger.toggle .line1 {
-  -webkit-transform: rotate(-45deg) translate(-5px, 6px);
-          transform: rotate(-45deg) translate(-5px, 6px);
+  -webkit-transform: rotate(-45deg) translate(-7px, 5px);
+          transform: rotate(-45deg) translate(-7px, 5px);
 }
 
 .header-menu .burger.toggle .line2 {
@@ -412,8 +412,8 @@ a {
 }
 
 .header-menu .burger.toggle .line3 {
-  -webkit-transform: rotate(45deg) translate(-5px, -6px);
-          transform: rotate(45deg) translate(-5px, -6px);
+  -webkit-transform: rotate(45deg) translate(-7px, -5px);
+          transform: rotate(45deg) translate(-7px, -5px);
 }
 
 .header-menu .burger div {
@@ -436,7 +436,7 @@ a {
   background-color: #fff;
   z-index: 900;
   width: 100%;
-  height: 90%;
+  height: 93%;
   position: fixed;
   bottom: 0;
   left: 0;
